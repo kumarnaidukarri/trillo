@@ -1,0 +1,60 @@
+.container {
+  max-width: 120rem;
+  margin: 8rem auto; /*TB LR*/
+  background-color: var(--color-grey-light-2);
+  box-shadow: var(--shadow-dark); /*x y blur color*/
+  min-height: 50rem;
+}
+
+.header {
+  height: 7rem;
+  background-color: #fff;
+  border-bottom: var(--line);
+  font-size: 1.4rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar {
+  background-color: var(--color-grey-dark-1);
+  flex: 0 0 18%; /*flex-grow flex-shrink flex-basis*/
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hotel-view {
+  background-color: #fff;
+
+  flex-grow: 1; /* occupying all available width*/
+}
+
+.detail {
+  display: flex;
+  padding: 4.5rem;
+  background-color: var(--color-grey-light-1);
+  border-bottom: var(--line);
+  font-size: 1.4rem;
+}
+.description {
+  background-color: #fff;
+  box-shadow: var(--shadow-light);
+  padding: 3rem;
+  flex: 0 0 60%; /*flex-basis*/
+  margin-right: 4.5rem;
+}
+.user-reviews {
+  flex: 1 0 0; /*grow for available space*/
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

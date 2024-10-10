@@ -1,0 +1,18 @@
+
+*** Only Frontend-developed, no Backend-development  ***
+
+Skills:- modern techniques, responsive, semantic-coding
+HTML,CSS,SASS
+
+sass compiler
+cssFlexBox, css animation
+architecture: used 1sass folder contains all subfolders for reusable components.
+		     all that code imported to main.scss file.
+		     then, main.scss is compiled to plain styles.css file
+
+Description:
+Trillo is a Hotels booking website.
+It have navbar, searchinputBox, details, user reviews, animated buttons.
+
+
+
